@@ -3,6 +3,8 @@ import spacy
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
+# updated chatbot with more greetings
+
 # Load spaCy NER model
 nlp = spacy.load("en_core_web_sm")
 print("Model loaded successfully")
